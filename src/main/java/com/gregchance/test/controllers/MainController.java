@@ -10,7 +10,7 @@ public class MainController {
 	@RequestMapping("/")
 	public String hello(@RequestParam(value="name", required=false) String searchQuery) {
 		if(searchQuery == null) {
-			return "Hello Lonkers!";
+			return "Hello Lonkers! this is the added test muhuhahaha";
 		}
 		return ("Hello "+searchQuery);
 	}
